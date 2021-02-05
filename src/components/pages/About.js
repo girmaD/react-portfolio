@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 function About() {
     return (
-      <div id="about-container" className="container  pt-5">
+      <div className="container  pt-5">
         <header className="row mx-1">         
             <div className="col-xs-10 col-md-8 bg-white">
                 <h1 className="text-info pt-3 about">About Me</h1>

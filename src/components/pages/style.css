@@ -1,0 +1,41 @@
+/* the html tag is made relative to make the footer absolutely positioned */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* background image  */
+    background-image: url(https://thumbs.dreamstime.com/t/d-muted-background-vintage-room-illustration-dusty-abstract-wall-floor-faint-light-soft-shade-studio-interior-yellow-156375539.jpg);
+    /* the background image is made to cover the whole page fully */
+    background-size: cover;
+    margin: 0 0 100px;
+}  
+/* the footer is absolutely positioned at the bottom of the page relative to the html tag */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;   
+    width: 100%;
+    /* the footer has a shadow on y-axis upwards with the colors shown above */
+    box-shadow: 0 -10px rgb(91, 192, 222, 1);
+} 
+/* the image of the index is sized as shown below */
+#about-image {
+    width: 15rem;
+    height: 18rem;
+}
+/* the navbar brand and the headings in each page are given a font-family and weight as shown below */
+.about {
+    font-family: Georgia, 'Libre Baskerville', serif; 
+    font-weight: 700;
+}
+/* the portfolio pages width's max-width is restricted as shown below */
+.portfolio-container {
+    max-width: 75%;
+    margin: 40px 20px;
+}
+/* the images on the porfolio page are sized as shown below */
+.portfolio-image {
+    width: 350px;
+    height: 350px;
+}

@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">Girma</a>
+        <a className="navbar-brand" href="/">Girma</a>
         
         <ul className="nav navbar-nav ml-auto d-inline-block">
             <li className="nav-item d-inline-block">

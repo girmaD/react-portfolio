@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -12,9 +12,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Switch>
         <Route exact path="/" ><About/></Route>         
-        <Route exact path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact"><Contact/></Route>
+        <Route path="/portfolio" ><Portfolio/></Route>
+        </Switch>
         <Footer/>
       </div>
     </Router>

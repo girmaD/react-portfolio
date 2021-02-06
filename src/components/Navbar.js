@@ -13,7 +13,7 @@ function Navbar() {
         
         <ul className="nav navbar-nav ml-auto d-inline-block">
             <li className="nav-item d-inline-block">
-                <Link to="/react-portfolio/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                <Link to="/react-portfolio/about" className={location.pathname === "/react-portfolio/about" ? "nav-link active" : "nav-link"}>
                 About
                 </Link>
             </li>
@@ -21,7 +21,7 @@ function Navbar() {
             <li className="nav-item d-inline-block ml-2">
                 <Link
                 to="/react-portfolio/contact"
-                className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                className={location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"}
                 >
                 Contact
                 </Link>
@@ -29,7 +29,7 @@ function Navbar() {
             <li className="nav-item d-inline-block ml-2">
                 <Link
                 to="/react-portfolio/portfolio"
-                className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                className={location.pathname === "/react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                 >
                 Portfolio
                 </Link>

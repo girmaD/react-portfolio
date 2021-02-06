@@ -13,9 +13,9 @@ function App() {
       <div>
         <Navbar />
         <Switch>
-        <Route exact path={["/", "/about"]} ><About/></Route>         
-        <Route exact path="/contact"><Contact/></Route>
-        <Route path="/portfolio" ><Portfolio/></Route>
+        <Route exact path={["/", "/about", "/react-portfolio"]} ><About/></Route>         
+        <Route exact path="/react-portfolio/contact"><Contact/></Route>
+        <Route path="/react-portfolio/portfolio" ><Portfolio/></Route>
         </Switch>
         <Footer/>
       </div>

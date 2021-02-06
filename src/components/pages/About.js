@@ -3,7 +3,7 @@ import './style.css'
 
 function About() {
     return (
-      <div className="container  py-5 my-5">
+      <div className="container mt-3 mt-3 pb-5 mb-5">
         <header className="row mx-1">         
             <div className="col-xs-10 col-md-8 bg-white">
                 <h1 className="text-info pt-3 about">About Me</h1>

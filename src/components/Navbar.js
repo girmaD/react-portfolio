@@ -9,27 +9,27 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">Girma</a>
+        <a className="navbar-brand" href="/react-portfolio">Girma</a>
         
         <ul className="nav navbar-nav ml-auto d-inline-block">
             <li className="nav-item d-inline-block">
-                <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                <Link to="/react-portfolio/about" className={location.pathname === "/react-portfolio/about" ? "nav-link active" : "nav-link"}>
                 About
                 </Link>
             </li>
             
             <li className="nav-item d-inline-block ml-2">
                 <Link
-                to="/contact"
-                className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                to="/react-portfolio/contact"
+                className={location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"}
                 >
                 Contact
                 </Link>
             </li>
             <li className="nav-item d-inline-block ml-2">
                 <Link
-                to="/portfolio"
-                className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                to="/react-portfolio/portfolio"
+                className={location.pathname === "/react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                 >
                 Portfolio
                 </Link>

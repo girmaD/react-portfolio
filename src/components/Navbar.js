@@ -13,7 +13,7 @@ function Navbar() {
         
         <ul className="nav navbar-nav ml-auto d-inline-block">
             <li className="nav-item d-inline-block">
-                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                 About
                 </Link>
             </li>

@@ -14,7 +14,7 @@ function About() {
         <div className="row mx-1">
             <div className="col-xs-10 col-md-8 bg-white">
               
-                <img style={{width: '18rem', height: '18rem'}} id="about-image" className="float-left img-fluid p-2" src="public/images/younger-me.jpg" alt="Girma's head" />
+                <img style={{width: '18rem', height: '18rem'}} id="about-image" className="float-left img-fluid p-2" src="../../../public/images/younger-me.jpg" alt="Girma's head" />
                 <p>My name is Girma D. Ebbsa. Currently, I am studying Full Stack Web Development bootcamp at University of Washington. I recently developed interest in software development and started taking courses both online and in class. First, I took Introduction to software development and testing at Hahu IT, Bellevue, WA. Then, I started taking Web developemt bootcamp course, JavaScript Algorith and Data Strucures Masterclass, JavaScript- A complete guide, Modern React with Redux, React - the complete guide on Udemy. This newly gained knowledge motivated me to start class at University of Washington(UW) coding bootcamp.</p>
 
                 <p>I am currently on the edge of completing UW coding bootcamp. I am interested in jobs as a Full Stack, FrontEnd or BackEnd developer positions. MERN stack is the stack I am familiar with, however, i am open to learning other stacks as well. I am a fast learner and enjoy working in a team.</p>

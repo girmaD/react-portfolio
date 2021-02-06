@@ -4,7 +4,7 @@
             "_id ": 1,
             "title": "Whale Watching App",
             "discription": "A whale watching application that lets a user to post on the app when he/she sees a whale, the app then immediately sends notification to nearby members via text. Is keeps all historical location where whales have been sighted. It also provides useful links to local resources related to whales.",
-            "src": "images/portfolioImages/whaleWatching.png",
+            "src": "public/images/portfolioImages/whaleWatching.png",
             "href": "https://fathomless-springs-89027.herokuapp.com/sightings",
             "repo": "https://github.com/watchNW/whale-watching"            
         },
@@ -12,7 +12,7 @@
             "_id ": 2,
             "title": "Trip Planner App",
             "discription": "A trip planner application that lets users plan their trips by telling the weather forcast, points of interest and restaurants to their destination on the days users plan to stay at their destination ",
-            "src": "images/portfolioImages/tripPlanner.png",
+            "src": "public/images/portfolioImages/tripPlanner.png",
             "href": "https://girmad.github.io/Trip-Planner/",
             "repo": "https://github.com/girmaD/Trip-Planner"
         },
@@ -20,7 +20,7 @@
             "_id ": 3,
             "title": "Fitness Tracker App",
             "discription": "A workout tracking app. It displays detailed info on the last workout performed. It also displays graphical illustration of the last seven workouts performed.",
-            "src": "images/portfolioImages/fitnessTracker.png",
+            "src": "public/images/portfolioImages/fitnessTracker.png",
             "href": "https://dry-taiga-52133.herokuapp.com/?id=6004b30b68e43700155a7987",
             "repo": "https://github.com/girmaD/Workout_Tracker"
         },
@@ -28,7 +28,7 @@
             "_id ": 4,
             "title": "Budget Tracker App",
             "discription": "This application is a progressive web application (PWA). The app works both online and offline. It is also installable as a native app on any platfrom be it android, ios or desktop. Technologies such as service-workers, manifest.json and index DB are used from the browser. ",
-            "src": "images/portfolioImages/budgetTrack.png",
+            "src": "public/images/portfolioImages/budgetTrack.png",
             "href": "https://whispering-earth-95595.herokuapp.com/",
             "repo": "https://github.com/girmaD/Progressive_Web_APP_Budget_Tracker"
         },

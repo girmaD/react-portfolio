@@ -20,7 +20,7 @@ function Navbar() {
             
             <li className="nav-item d-inline-block ml-2">
                 <Link
-                to="/react-portfolio//contact"
+                to="/react-portfolio/contact"
                 className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                 >
                 Contact
@@ -28,7 +28,7 @@ function Navbar() {
             </li>
             <li className="nav-item d-inline-block ml-2">
                 <Link
-                to="/react-portfolio//portfolio"
+                to="/react-portfolio/portfolio"
                 className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                 >
                 Portfolio
